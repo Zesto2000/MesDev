@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MonSiteWeb — Contact</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">MonSiteWeb</h1>
+      <nav class="main-nav">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="content">
+      <h2>Contact</h2>
+      <p>Utilisez le formulaire ci-dessous pour nous envoyer un message. (Ce formulaire est statique — il n'y a pas de backend dans cet exemple.)</p>
+
+      <form class="contact-form" action="#" method="post">
+        <label>Nom
+          <input type="text" name="name" placeholder="Votre nom">
+        </label>
+        <label>Email
+          <input type="email" name="email" placeholder="votre@email.com">
+        </label>
+        <label>Message
+          <textarea name="message" rows="6" placeholder="Votre message..."></textarea>
+        </label>
+        <p><button class="btn" type="submit">Envoyer</button></p>
+      </form>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 MonSiteWeb — Tous droits réservés</div>
+  </footer>
+</body>
+</html>
